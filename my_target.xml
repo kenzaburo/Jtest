@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <target>
     <noOfSCs>2</noOfSCs>
-    <user>x-id</user>
-    <pwd>your password</pwd>
+    <user>root</user>
+    <pwd>rootroot</pwd>
     <ipAddress>
         <ctrl>
-            <ctrl1>your address of SC-1</ctrl1>
-            <ctrl2>your address of SC-2</ctrl2>
+            <ctrl1>192.168.56.10</ctrl1>
+            <ctrl2></ctrl2>
         </ctrl>
     </ipAddress>
 </target>
