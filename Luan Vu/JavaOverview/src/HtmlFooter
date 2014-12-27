@@ -1,0 +1,36 @@
+  </br>
+ <p> Made by Luan Vu </p>
+ </body>
+</html>
+<style type="text/css">
+h1{
+	background: #f1c40f;
+	width: 15%;
+}
+
+div{
+	height: 25;
+}
+	.testId{
+	 	background:grey;
+	 	font-weight: bold;
+	 	color: white;
+	 	width: 15%;
+	 	border-right: solid;
+ 	}
+
+ 	.result{
+	 	background: green;
+	 	font-weight: bold;
+	 	color: white;
+	 	width: 15%;
+	 	margin-top: 4px;
+	 	text-align: center;
+ 	}
+
+ 	.failed{
+	 	background: red;
+	 	width: 15%;
+	 	text-align: center;
+ 	}
+</style>

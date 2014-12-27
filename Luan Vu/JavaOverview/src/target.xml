@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target>
+   <SCs noOfSC="2">
+      <SC1>
+         <ipAddr>192.168.56.1</ipAddr>
+         <usr>root</usr>
+         <pwd>root</pwd>
+      </SC1>
+      <SC2>
+         <ipAddr>192.168.56.2</ipAddr>
+         <usr>root</usr>
+         <pwd>root</pwd>
+      </SC2>
+      <SC3>
+         <ipAddr>192.168.56.3</ipAddr>
+         <usr>root</usr>
+         <pwd>root</pwd>
+      </SC3>
+   </SCs>
+</target>
