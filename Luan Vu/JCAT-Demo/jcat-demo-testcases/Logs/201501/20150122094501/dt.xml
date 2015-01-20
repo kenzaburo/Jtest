@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlresults>
+   <suite>
+      <classname>se.ericsson.jcat.serverdemo.suites.DemoSuite</classname>
+      <compiledtest>
+         <classname>se.ericsson.jcat.serverdemo.tests.SshExecCmd</classname>
+         <method>testExecCmd</method>
+         <log>1_testExecCmd.log.html</log>
+         <verdict>Passed</verdict>
+         <duration>18</duration>
+      </compiledtest>
+      <compiledtest>
+         <classname>se.ericsson.jcat.serverdemo.tests.SshExecScript</classname>
+         <method>testExecScript</method>
+         <log>2_testExecScript.log.html</log>
+         <verdict>Passed</verdict>
+         <duration>0</duration>
+      </compiledtest>
+      <compiledtest>
+         <classname>se.ericsson.jcat.serverdemo.tests.SshExecCountString</classname>
+         <method>testCountString</method>
+         <log>3_testCountString.log.html</log>
+         <verdict>Failed</verdict>
+         <failreason>some error</failreason>
+         <duration>7</duration>
+      </compiledtest>
+   </suite>
+</xmlresults>

@@ -1,0 +1,141 @@
+body {
+	font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	background: #FFFFFF;
+}
+
+table {
+	width: 100%;
+}
+
+table.coll {
+	border-collapse: collapse
+}
+
+a {
+	color: #c75f3e;
+}
+
+a.logoblend {
+	color: #0033FF;
+}
+
+img{
+	border-style: none;
+	vertical-align: middle;
+}
+
+#mytable {
+	width: 1800px;
+	padding: 0;
+	margin: 0;
+}
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+th {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	font:  10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	letter-spacing: 2px;
+	padding: 3px 3px 3px 6px;
+}
+
+td.padding-top-bottom-zero {
+    padding-top: 0px;
+    padding-bottom: 0px;	
+}
+
+td.icon {
+    padding: 0px 1px 0px 4px;
+    width: 7px;
+}
+
+td.error-type {
+    padding: 0px 0px 0px 1px;
+    width: 100%;
+}
+
+td.error-message {
+    width: 100%;		
+}
+
+td.fail {
+	background: #FFCC99;
+	color: #797268;
+}
+
+td.pass {
+	background: #fff;
+	color: #4f6b72;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+
+
+tr.odd {
+    background-color: #FAEBD7;
+}
+
+tr.even {
+    background-color: #FFFFFF;
+}
+
+td.script{
+    width: 7px;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.testcase-column{
+    width: 20%;
+}
+
+.reasons-column{
+    width: 80%;
+}

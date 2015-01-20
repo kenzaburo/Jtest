@@ -1,0 +1,92 @@
+2015-01-22 09:45:01,683 INFO  JCAT framework initialized
+2015-01-22 09:45:01,686 INFO  
+2015-01-22 09:45:01,691 INFO  Loading Version.txt in jcat_fw.jar ...
+2015-01-22 09:45:01,692 INFO  JCAT Version: R2E06
+2015-01-22 09:45:03,033 INFO  New file: C:\Users\luan.t.vu\Java_Excercise\jcat-demo-testcases\Logs\201501\20150122094501\1_testExecCmd.log.html
+2015-01-22 09:45:03,039 INFO  <b>Test Step 1: Reading properties file</b>
+2015-01-22 09:45:03,041 INFO  Populating the property library
+2015-01-22 09:45:03,041 INFO  Read properties "ssh.host" value: "192.168.56.1"
+2015-01-22 09:45:03,041 INFO  Read properties "ssh.user" value: "root"
+2015-01-22 09:45:03,042 INFO  Read properties "ssh.pass" value: "root"
+2015-01-22 09:45:03,042 INFO  Read properties "ssh.srcScript" value: "Resource\script.sh"
+2015-01-22 09:45:03,042 INFO  Read properties "ssh.dstScript" value: "/root/script.sh"
+2015-01-22 09:45:03,042 INFO  Read properties "ssh.lcpyfile" value: "Resource\tmp.txt"
+2015-01-22 09:45:03,043 INFO  Read properties "ssh.rcpyfile" value: "/var/log/messages"
+2015-01-22 09:45:03,043 INFO  Read properties "keyword" value: "WARN"
+2015-01-22 09:45:03,043 INFO  <b><font color="blue">TC: Reboot cluster</font></b>
+2015-01-22 09:45:03,043 INFO  <b><font color="blue">TC ID: Exec reboot command</b>
+2015-01-22 09:45:03,043 INFO  <b>Test Step 2: Connecting to: 192.168.56.1</b>
+2015-01-22 09:45:03,043 INFO  Using this username: root
+2015-01-22 09:45:03,043 INFO  Using this password: root
+2015-01-22 09:45:03,363 WARN  Session is closed
+2015-01-22 09:45:03,628 INFO  <b>Test Step 3: Checking the output of the command</b>
+2015-01-22 09:45:21,102 INFO  cluster reboot -a -q
+Preparing all nodes for quick reboot
+Preparing quick reboot on node 4 (payload4)
+Preparing quick reboot on node 2 (control2)
+Preparing quick reboot on node 3 (payload3)
+Preparing quick reboot on node 1 (control1)
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 2 (control2), skipped
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 4 (payload4), skipped
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 3 (payload3), skipped
+Rebooting all nodes
+Stopping DHCP daemon on node 2 (control2)
+Failed to execute /etc/init.d/lde-dhcpd stop on 2 (control2), skipped
+Failed to execute /etc/init.d/lde-noded stop on 2 (control2), skipped
+Stopping DHCP daemon on node 1 (control1)
+Stopping DHCP daemon 7
+[300Cdone8
+Stopping node daemon 7[300Cdone8
+Waiting for payload nodes to shut down
+Payload nodes have shut down
+Rebooting node 2 (control2)
+Failed to execute /sbin/reboot on 2 (control2), skipped
+Rebooting node 1 (control1)
+
+
+Broadcast message from root (pts/1) (Wed Jan 21 11:40:05 2015):
+
+
+The system is going down for reboot NOW!
+
+control1:~ # 
+2015-01-22 09:45:21,105 INFO  *** OVERALL TESTCASE RESULT ***
+2015-01-22 09:45:21,105 INFO  Event Check Passed
+2015-01-22 09:45:21,105 INFO  Assertion Check Passed
+2015-01-22 09:45:21,128 INFO  New file: C:\Users\luan.t.vu\Java_Excercise\jcat-demo-testcases\Logs\201501\20150122094501\2_testExecScript.log.html
+2015-01-22 09:45:21,129 INFO  <b>Test Step 1: Reading properties file</b>
+2015-01-22 09:45:21,129 INFO  <b><font color="blue">TC: Copy script</font></b>
+2015-01-22 09:45:21,130 INFO  <b><font color="blue">TC ID: Copy script to remote</b>
+2015-01-22 09:45:21,130 INFO  <b>Test Step 2: Connecting to: 192.168.56.1</b>
+2015-01-22 09:45:21,130 INFO  Using this username: root
+2015-01-22 09:45:21,131 INFO  Using this password: root
+2015-01-22 09:45:21,356 WARN  Session is closed
+2015-01-22 09:45:21,636 INFO  <b>Test Step 3: Copy script</b>
+2015-01-22 09:45:21,688 INFO  <b>Test Step 4: Execute script</b>
+2015-01-22 09:45:21,715 INFO  /root/script.sh
+Hello Luan Vu
+
+/root/script.sh: line 2: date: command not found
+/root
+control1:~ # 
+2015-01-22 09:45:21,715 INFO  *** OVERALL TESTCASE RESULT ***
+2015-01-22 09:45:21,715 INFO  Event Check Passed
+2015-01-22 09:45:21,716 INFO  Assertion Check Passed
+2015-01-22 09:45:21,729 INFO  New file: C:\Users\luan.t.vu\Java_Excercise\jcat-demo-testcases\Logs\201501\20150122094501\3_testCountString.log.html
+2015-01-22 09:45:21,730 INFO  <b>Test Step 1: Reading properties file</b>
+2015-01-22 09:45:21,730 INFO  <b><font color="blue">TC: Count string</font></b>
+2015-01-22 09:45:21,730 INFO  <b><font color="blue">TC ID: Count WARN string</b>
+2015-01-22 09:45:21,731 INFO  <b>Test Step 2: Connecting to: 192.168.56.1</b>
+2015-01-22 09:45:21,731 INFO  Using this username: root
+2015-01-22 09:45:21,731 INFO  Using this password: root
+2015-01-22 09:45:21,928 WARN  Session is closed
+Delete operation is failed.
+2015-01-22 09:45:22,182 INFO  <b>Test Step 3: Copy log file to local</b>
+2015-01-22 09:45:28,774 ERROR <b>Assertion Failed: </b>Check keyword pass  -->  <a href=stacktraces\trace7018818395895380949.log TARGET="_self">StackTrace</a>
+tmp.txt is deleted!
+2015-01-22 09:45:28,777 INFO  *** OVERALL TESTCASE RESULT ***
+2015-01-22 09:45:28,778 ERROR Assertion failed during testcase
+2015-01-22 09:45:28,778 ERROR The fetched logs: 
+2015-01-22 09:45:28,780 ERROR <b>Assertion Failed: </b>Test Case execution failed: null  -->  <a href=stacktraces\trace6034198353860896854.log TARGET="_self">StackTrace</a>
+2015-01-22 09:45:28,811 INFO  The HTML logs are in: C:\Users\luan.t.vu\Java_Excercise\jcat-demo-testcases\Logs\201501\20150122094501\index.html
+2015-01-22 09:45:28,811 INFO  The Console log is: C:\Users\luan.t.vu\Java_Excercise\jcat-demo-testcases\Logs\201501\20150122094501\console.log

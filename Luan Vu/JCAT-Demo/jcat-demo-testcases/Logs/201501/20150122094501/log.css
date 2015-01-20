@@ -1,0 +1,129 @@
+body {
+	font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #FFFFFF;
+	font-size: x-small;
+}
+
+
+pre
+{
+padding: 0px 0px; border: 3px double silver;
+font-weight:bold;
+color:navy;
+font-family:monospace ;
+}
+
+table{
+	width: 100%;
+}
+
+img{
+	border-style: none;	
+}
+
+th{
+	background: #336699;
+	color: #FFFFFF;
+	text-align: left;	
+}
+
+th.level{
+	width: 10px;
+}
+
+tr.even{
+	background-color: #FFFFFF;	
+}
+
+tr.odd{
+	background-color: #FCFAFF;
+}
+
+tr.error{
+	background-color: #FF3300;
+}
+
+tr.error td.message a:visited{
+	color: #0000FF;
+}
+
+tr.excluded{
+	background-color: #99CCFF;
+}
+
+tr.passed{
+	background-color: #99CC00;
+}
+
+tr.other{
+	background-color: #FF9933;
+}
+
+tr.nesof{
+	background-color: #ffd700;
+}
+tr.expected{
+	background-color: #99CC00;
+}
+
+tr.ignored{
+	background-color: #99CCFF;
+}
+
+tr.eventpair{
+    background-color: #deb887;
+}
+
+tr.delimiter td{
+	border-width: 4px;
+	border-top: ridge; 
+	border-color: grey;
+}
+
+tr.subtest{
+	background-color: #FFFFFF;
+}
+
+td.leveldebug{
+	color: #339933;
+}
+
+td.nowrap{
+	white-space: nowrap;	
+}
+
+td.message{
+	white-space: nowrap;		
+}
+
+td.script{
+	width: 31px;	
+	min-width: 31px;
+}
+
+td.subScript{
+	padding-left:13px;
+}
+
+th.script{
+	width: 31px;
+	min-width: 31px;
+}
+
+tr.hidden{
+	background-color: #CCCCCC;
+}
+
+tr.jcathide{
+	background-color: #CCCCCC;
+}
+
+.time{
+	min-width: 140px;
+	max-width: 140px;
+}
+.level{
+	min-width: 40px;	
+	max-width: 40px;	
+}

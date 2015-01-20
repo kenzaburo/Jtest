@@ -1,0 +1,260 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>JCAT Log Messages</title>
+<STYLE type="text/css">body {font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color: #000000;background: #FFFFFF;font-size: x-small;}table{width: 100%;}img{border-style: none;}th{background: #336699;color: #FFFFFF;text-align: left;}th.level{width: 10px;}tr.error{background-color: #FF3300;}tr.other{background-color: #FF9933;}tr.odd{background-color: #FCFAFF;}tr.even{background-color: #FFFFFF;	}tr.expected{background-color: #99CC00;}tr.ignored{background-color: #99CCFF;}tr.delimiter td{border-width: 4px;border-top: ridge; border-color: grey;}tr.subtest{background-color: #FFFFFF;}td.leveldebug{color: #339933;}td.nowrap{white-space: nowrap;}td.script{width: 7px;} </STYLE>
+<link rel="stylesheet" href="log.css" type="text/css" media="screen, print" />
+<script language="JavaScript" type="text/javascript" src="jquery-1.6.4.js"></script>
+<script language="JavaScript" type="text/javascript" src="jcat.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()  {
+		$("#hidden").click(function(){
+			hideUnhideRows("hidden");
+		});
+		loadAnchor();
+		checkBrowser();
+	});
+</script>
+</head>
+<body>
+Log session start time Thu Jan 22 09:45:03 ICT 2015<br>
+<a href="javascript:closeall();">      close all</a> | 
+<a href="javascript:openall();">open all</a> |
+<!-- Hide location-->
+<table cellspacing="0">
+<tr>
+<th></th>
+<th class="time">Time</th>
+<th class="level">Level</th>
+<th>Message</th>
+<th>Logger</th>
+<th>Thread</th>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"><a href="javascript:sw(1);"><img src="img/nolines_plus.gif" id="expand_1"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 1: Reading properties file</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_1" style='display:none;'>
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Populating the property library</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.host" value: "192.168.56.1"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.user" value: "root"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.pass" value: "root"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.srcScript" value: "Resource\script.sh"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.dstScript" value: "/root/script.sh"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.lcpyfile" value: "Resource\tmp.txt"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "ssh.rcpyfile" value: "/var/log/messages"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Read properties "keyword" value: "WARN"</td>
+<td title="Logger">PropLibrary</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</tbody>
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b><font color="blue">TC: Reboot cluster</font></b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b><font color="blue">TC ID: Exec reboot command</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"><a href="javascript:sw(2);"><img src="img/nolines_plus.gif" id="expand_2"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 2: Connecting to: 192.168.56.1</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_2" style='display:none;'>
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Using this username: root</td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Using this password: root</td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level"><b>WARN</b></td>
+<td class="message" title="Message">Session is closed</td>
+<td title="Logger">Ssh2Session</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</tbody>
+<tr class="odd ">
+<td class="script" nowrap="true"><a href="javascript:sw(3);"><img src="img/nolines_plus.gif" id="expand_3"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:03 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 3: Checking the output of the command</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_3" style='display:none;'>
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">cluster reboot -a -q
+Preparing all nodes for quick reboot
+Preparing quick reboot on node 4 (payload4)
+Preparing quick reboot on node 2 (control2)
+Preparing quick reboot on node 3 (payload3)
+Preparing quick reboot on node 1 (control1)
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 2 (control2), skipped
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 4 (payload4), skipped
+Failed to execute /usr/bin/cluster reboot --prepare-kexec on 3 (payload3), skipped
+Rebooting all nodes
+Stopping DHCP daemon on node 2 (control2)
+Failed to execute /etc/init.d/lde-dhcpd stop on 2 (control2), skipped
+Failed to execute /etc/init.d/lde-noded stop on 2 (control2), skipped
+Stopping DHCP daemon on node 1 (control1)
+Stopping DHCP daemon 7
+[300Cdone8
+Stopping node daemon 7[300Cdone8
+Waiting for payload nodes to shut down
+Payload nodes have shut down
+Rebooting node 2 (control2)
+Failed to execute /sbin/reboot on 2 (control2), skipped
+Rebooting node 1 (control1)
+
+
+Broadcast message from root (pts/1) (Wed Jan 21 11:40:05 2015):
+
+
+The system is going down for reboot NOW!
+
+control1:~ # </td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</tbody>
+<tr class="odd ">
+
+<tr class="delimiter">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">*** OVERALL TESTCASE RESULT ***</td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Event Check Passed</td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Assertion Check Passed</td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</table>
+<br>
+<script>
+</script>
+</body></html>

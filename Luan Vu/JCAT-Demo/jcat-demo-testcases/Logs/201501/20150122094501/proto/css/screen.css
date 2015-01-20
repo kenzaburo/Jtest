@@ -1,0 +1,442 @@
+body{
+	background-color: #fff; padding:0 0 0 0; margin:0 0 0 0;
+}
+body, input, select, td, textarea{ 
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+h1, h2, h3, h4, h5, h6, p, strong, div, form, acronym, label, table, td, th, span, a, hr, code, pre, hr {
+	margin:0;
+	padding:0;
+	font-size: 1em;
+	background-repeat:no-repeat;
+	list-style-type:none;
+
+
+}
+em {
+  color: #999; /*TODO*/
+}
+
+a, a:visited, a:hover { 
+	/*color:#666; */
+	color: #5C7CAB;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+img{ 
+	border:none;
+}
+
+img.netconf{
+	width: 190px; 
+	height: 25px;
+	padding: 10% 0px 20px 0px;
+	margin: 15% 0px 10% 0px;
+	vertical-align: center;
+}
+hr {
+	height: 1px;
+	color: #999; /*#000*/
+	clear:both;
+}
+textarea {
+	width:90%;
+	height:200px;
+}
+form textarea{
+	width:80%;
+	height:100px;
+}
+dt {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+h1 {
+	font-size: 2em;
+color: #69c;
+	/*	color: #8FA5C5;*/
+}
+h1 a{
+	color: #000;
+}
+div#header {
+	/*background-color: #fea;*/
+	background-color: #EEEEEE;
+
+	border-top: 1px solid #999; /*#000;*/
+	border-bottom: 1px solid #999; /*#000;*/
+	padding: 20px 5px 30px 15px;
+	margin: 10px 1% 20px 1%;
+}
+div#header ul{
+	margin: 10px 0 0 0;
+}
+div#header ul li{
+	list-style-type: none;
+	float: left;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+}
+div#header ul li a{
+	display: block;
+	/*color: #f00;*/
+	border-left: 1px solid red;
+	padding-left: 5px;
+}
+div#header ul li a:hover{
+	border-left: 1px solid #000;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 10px 0 10px 0;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+p#code {
+font-family: courier;
+}
+
+acronym {
+	border-bottom: 1px dashed #000;
+	cursor: help;
+}
+
+div#body {
+	margin: 0 1% 15px 1%;
+	padding: 10px 10px 10px 10px;
+	border: 1px dashed #666;
+}
+
+div#validxhtml {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px;
+	margin: 5px;
+	width:100px;
+	text-align: center;
+}
+div#footer {
+
+	padding: 5px 5px 5px 5px;
+	margin: 10px 3% 20px 3%;
+	border-top: 1px solid #999;
+	text-align:right;
+}
+
+div#footer span {
+	float: left;
+}
+
+div.padleft {
+	padding-left: 40px;	
+}
+
+/*.changed {
+	background-color: #ee0;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+}*/
+ul#stylelist {
+	margin:0 0 30px 0;
+}
+
+ul#stylelist li {
+	list-style-type: none;
+	float:left;
+	width:100px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding:2px;
+	margin-right: 2px;
+}
+pre.formated{
+	/*width: 200px;*/
+}
+pre {
+	white-space: pre; /* CSS2 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-wrap;       /* css-3 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -hp-pre-wrap; /* HP printers */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	_white-space: pre;   /* IE only hack to re-specify in addition to
+word-wrap  */
+}
+
+div.formated{
+	font-size: 9px;
+}
+
+table {
+	border: 1px solid #999;
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+}
+th, td {
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+td {
+	background-color: #eeeeee;
+	border-width: 1px;
+	border-bottom: solid; 
+	border-color: grey;
+}
+td.script {
+
+}
+
+td.teststep {
+   background-color: #dddddd;
+}
+td.teststepError {
+   background-color: #FF6633;
+}
+
+td.rightalign {
+    text-align: right;
+}
+td.message{
+	
+	
+	/*border-width: 1px;
+	border-style: ridge; 
+	border-color: blue;
+	margin-top: 17px;*/
+}
+td.image{
+	vertical-align: center;
+	width: 190px;
+	/*border-width: 1px;
+	border-style: ridge; 
+	border-color: green;*/
+}
+td.empty{
+	/*border-width: 0.5px;
+	border-style: ridge; 
+	border-color: green;*/
+}
+thead tr {
+  background-color: #fc0;
+}
+th.sorted {
+    /*background-color: orange;*/
+    background-color: #FF9933;
+}
+th.protocol{
+	background-color: #998066;
+	/*width: 10%;*/
+	width: 190px;
+}
+th a, th a:visited {
+  /*color: black;*/
+
+  color: #FFFFFF;
+}
+
+th {
+color: #FFFFFF;
+background-color: #336699;
+width: 45%;
+}
+
+th a:hover {
+  text-decoration: underline;
+  /*color: black;*/
+
+  color: #FFFFFF;
+}
+
+tr.odd {
+  background-color: #fff
+  /*background-color: #F9F9F9;*/
+}
+tr.tableRowEven, tr.even {
+  /*background-color: #fea*/
+  background-color: #EEEEEE;
+
+}
+
+ul#showsource {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 5px;
+	width:100px;
+	list-style-type: none;
+}
+
+/* test styles */
+table.mic{
+	width: 90%;
+}
+table.mic thead tr {
+  background-color: #69c;
+}
+table.mic tr.even {
+  background-color: #EEEEEE;
+}
+table.mic tr.odd {
+  background-color: #F9F9F9;
+}
+table.mic td input.filled{
+	width:100%;
+}
+input.filled{
+	width: 90%;
+}
+
+/* test styles */
+table.its thead tr {
+  background-color: #69c;
+
+  color: #FFFFFF;
+}
+table.its tr.even {
+  background-color: #def;
+}
+
+table.mars thead tr {
+  background-color: #9c9;
+}
+table.mars tr.even {
+  background-color: #ccb;
+}
+table.mars tr.odd {
+  background-color: #eec;
+}
+
+
+table.simple thead tr {
+  background-color: #eee;
+}
+table.simple tr.even {
+  background-color: #fff;
+}
+table.simple {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table.simple td,table.simple th{
+	border: 1px solid #ccc;
+}
+
+table.nocol tbody td,table.nocol tbody th{
+	border-left: none;
+	border-right: none;
+}
+
+
+
+
+table.report td, table.report th{
+	font:         menu;
+}
+table.report th{
+	background:   buttonface;
+	border-width: 1px;
+	border-style: solid;
+	border-color: threedhighlight threedshadow threedshadow threedhighlight;
+	cursor:       hand;
+}
+table.report idcol {
+	background: buttonface;
+}
+
+table.report tr.even{
+	background-color: #399;
+}
+table.report tbody {
+	height: 100px;
+	overflow: auto;
+}
+
+table.report {
+	height: 120px;
+	overflow: auto;
+}
+
+table.report tbody tr{
+	height: 10px;
+}
+
+
+
+
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.sublist {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+table.sublist td, table.sublist th {
+	width: 50%;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: -10px 0 10px 0;
+	width: 89%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../img/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(../img/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(../img/ico_file_xml.png);
+}
+span.pdf {
+	background-image: url(../img/ico_file_pdf.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	display:block;
+	border-top: none;
+	margin-bottom: -5px;
+}
+
+table.simple td.textRed {color: #b11;}

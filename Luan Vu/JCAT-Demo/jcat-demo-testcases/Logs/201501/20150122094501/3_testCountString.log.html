@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>JCAT Log Messages</title>
+<STYLE type="text/css">body {font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color: #000000;background: #FFFFFF;font-size: x-small;}table{width: 100%;}img{border-style: none;}th{background: #336699;color: #FFFFFF;text-align: left;}th.level{width: 10px;}tr.error{background-color: #FF3300;}tr.other{background-color: #FF9933;}tr.odd{background-color: #FCFAFF;}tr.even{background-color: #FFFFFF;	}tr.expected{background-color: #99CC00;}tr.ignored{background-color: #99CCFF;}tr.delimiter td{border-width: 4px;border-top: ridge; border-color: grey;}tr.subtest{background-color: #FFFFFF;}td.leveldebug{color: #339933;}td.nowrap{white-space: nowrap;}td.script{width: 7px;} </STYLE>
+<link rel="stylesheet" href="log.css" type="text/css" media="screen, print" />
+<script language="JavaScript" type="text/javascript" src="jquery-1.6.4.js"></script>
+<script language="JavaScript" type="text/javascript" src="jcat.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()  {
+		$("#hidden").click(function(){
+			hideUnhideRows("hidden");
+		});
+		loadAnchor();
+		checkBrowser();
+	});
+</script>
+</head>
+<body>
+Log session start time Thu Jan 22 09:45:21 ICT 2015<br>
+<a href="javascript:closeall();">      close all</a> | 
+<a href="javascript:openall();">open all</a> |
+<!-- Hide location-->
+<table cellspacing="0">
+<tr>
+<th></th>
+<th class="time">Time</th>
+<th class="level">Level</th>
+<th>Message</th>
+<th>Logger</th>
+<th>Thread</th>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"><a href="javascript:sw(1);"><img src="img/nolines_plus.gif" id="expand_1"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 1: Reading properties file</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_1" style='display:none;'></tbody>
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b><font color="blue">TC: Count string</font></b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b><font color="blue">TC ID: Count WARN string</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"><a href="javascript:sw(2);"><img src="img/nolines_plus.gif" id="expand_2"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 2: Connecting to: 192.168.56.1</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_2" style='display:none;'>
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Using this username: root</td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="even ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">Using this password: root</td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class="odd ">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:21 AM</td>
+<td title="Level" class="level"><b>WARN</b></td>
+<td class="message" title="Message">Session is closed</td>
+<td title="Logger">Ssh2Session</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</tbody>
+<tr class="even ">
+<td class="script" nowrap="true"><a href="javascript:sw(3);"><img src="img/nolines_plus.gif" id="expand_3"></img></a>
+</td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:22 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message"><b>Test Step 3: Copy log file to local</b></td>
+<td title="Logger">se.ericsson.jcat.fw.logging.writers.HtmlLogWriter</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+<tbody id="tbody_3" style='display:none;'>
+<tr class=" error">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:28 AM</td>
+<td title="Level" class="level"><b>ERROR</b></td>
+<td class="message" title="Message"><b>Assertion Failed: </b>Check keyword pass  -->  <a href=stacktraces\trace7018818395895380949.log TARGET="_self">StackTrace</a></td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</tbody>
+<tr class="odd ">
+
+<tr class="delimiter">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:28 AM</td>
+<td title="Level" class="level">INFO</td>
+<td class="message" title="Message">*** OVERALL TESTCASE RESULT ***</td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class=" error">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:28 AM</td>
+<td title="Level" class="level"><b>ERROR</b></td>
+<td class="message" title="Message">Assertion failed during testcase</td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class=" error">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:28 AM</td>
+<td title="Level" class="level"><b>ERROR</b></td>
+<td class="message" title="Message">The fetched logs: </td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+
+<tr class=" error">
+<td class="script" nowrap="true"></td>
+<td class="time" nowrap="true">Jan 22, 2015 9:45:28 AM</td>
+<td title="Level" class="level"><b>ERROR</b></td>
+<td class="message" title="Message"><b>Assertion Failed: </b>Test Case execution failed: null  -->  <a href=stacktraces\trace6034198353860896854.log TARGET="_self">StackTrace</a></td>
+<td title="Logger">se.ericsson.jcat.serverdemo.tests.SshExecCountString</td>
+<td class="nowrap" title="Thread">main</td>
+</tr>
+</table>
+<br>
+<script>
+	sw(3);
+</script>
+</body></html>

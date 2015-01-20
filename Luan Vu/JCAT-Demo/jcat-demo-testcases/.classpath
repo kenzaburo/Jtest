@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jcat-demo-extenssions"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-extensions/2.4.10/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-extensions/2.4.10/lib/snmp4j-1.9.3c.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-extensions/2.4.10/lib/trilead-ssh2-build213-svnkit-1.3-patch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-extensions/2.4.10/jar/JCatExtensions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-extensions/2.4.10/jar/JCatExtensions_src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/jar/JCatFw.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/jar/JCatFw_src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/jcat-fw-ignoreList-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/junit-3.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/jython.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/mysql-connector-java-5.1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/saxon-9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/saxon-dom-9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/xmlbeans-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luan.t.vu/.m2/repository/se/ericsson/jcat/jcat-fw/2.4.10/lib/xmlbeans-xpath-2.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

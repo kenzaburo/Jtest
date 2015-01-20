@@ -1,0 +1,24 @@
+<chart>
+<series>
+<value xid='0'>testExecCmd</value>
+<value xid='1'>testExecScript</value>
+<value xid='2'>testCountString</value>
+</series>
+<graphs>
+<graph gid='0' visible_in_legend='0'>
+<value xid='0' color='#5FEF5F'>18</value>
+<value xid='1' color='#5FEF5F'>0</value>
+<value xid='2' color='#FF3300'>7</value>
+</graph>
+<graph gid='1' title='Passed' color='#5FEF5F'>
+<value xid='0' />
+<value xid='1' />
+<value xid='2' />
+</graph>
+<graph gid='2' title='Failed' color='#FF3300'>
+<value xid='0' />
+<value xid='1' />
+<value xid='2' />
+</graph>
+</graphs>
+</chart>
