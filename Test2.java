@@ -31,15 +31,14 @@ public class Test {
 		public String password;
 		public String hostAddress;
 	}
-
 	
 	//Find subString in String
-a	public static boolean contains( String haystack, String needle ) {
+	public static boolean contains( String haystack, String needle ) {
 		  haystack = haystack == null ? "" : haystack;
 		  needle = needle == null ? "" : needle;
 		  return haystack.toLowerCase().contains( needle.toLowerCase() );
 	}
-iafasda	
+	
 	//Parsing xml file and store to struct Infor
 	public static Infor ParseXmlFile(String xmlFile){
 		Infor infor = new Infor();
@@ -61,8 +60,6 @@ iafasda
 		return infor;
 	}
 	
-
-adfa
 	//TestCase1: Reboot node PL-3
 	public static boolean TestCase1(String username, String passwd, String host){
 		System.out.println("TestCase1: Reboot node PL-3");
