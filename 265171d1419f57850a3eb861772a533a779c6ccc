@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_a8ee28b2",
+        "filename": "Test2.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1004027
+      },
+      "writtenOn": "2015-03-03T08:25:56Z",
+      "side": 1,
+      "message": "đấ",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 1
+      },
+      "revId": "265171d1419f57850a3eb861772a533a779c6ccc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
